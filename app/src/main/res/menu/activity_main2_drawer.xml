@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:iconTint="@color/white"
+            android:title="Customer" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group6">
+        <item
+            android:id="@+id/nav_addcustomer"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="package" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_gallery"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="NOC" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_slideshow"
+             android:iconTintMode="screen"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Customer Help" />
+    </group>
+       <!-- <group android:checkableBehavior="single"
+    android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_manage"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Quick Pay" />
+    </group>-->
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4">
+        <item
+            android:id="@+id/nav_login"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Login" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group5">
+        <item
+            android:id="@+id/nav_share"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_send"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_menu_send"
+            android:title="About" />
+    </group>
+
+
+
+</menu>

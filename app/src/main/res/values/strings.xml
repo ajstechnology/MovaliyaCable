@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hiten Cable</string>
+    <string name="MobileNumber">Mobile Number</string>
+    <string name="Password">Password</string>
+    <string name="btnlogin">Sign In</string>
+    <string name="btnregister">Sign Up</string>
+    <string name="admob_app_id">ca-app-pub-3704545923813865~8346187327</string>
+    <string name="banner_home_footer">ca-app-pub-3704545923813865/6691282731</string>
+    <string name="title_activity_main2"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- customer detail-->
+
+    <string name="customername">Name</string>
+    <string name="address">Address</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="username">Username</string>
+    <string name="boxnumber">Box Number</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

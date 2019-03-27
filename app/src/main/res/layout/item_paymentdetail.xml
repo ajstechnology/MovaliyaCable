@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F1F1F5"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_size_rv"
+        android:layout_margin="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/five_dp"
+        app:cardElevation="@dimen/ten_dp"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:text="27 Des 18"
+                android:textSize="9pt"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal|center"
+                />
+
+            <TextView
+                android:id="@+id/txtpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center"
+                android:text="RS 250" />
+
+            <TextView
+                android:id="@+id/txtpaid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:text="250"
+                android:textSize="12pt"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal|center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
