@@ -23,7 +23,8 @@
     <string name="username">Username</string>
     <string name="boxnumber">Box Number</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_customer">CustomerLists</string>
+    <string name="title_package">Packages</string>
+    <string name="title_Noc">NOC</string>
+    <string name="title_Setting">Settings</string>
 </resources>

@@ -24,9 +24,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="movaliyacable.view.NeedHelpActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="movaliyacable.view.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -39,19 +36,13 @@
         <activity
             android:name="movaliyacable.view.TermAndConditionActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="movaliyacable.view.QuickPayActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="movaliyacable.view.NewConnectionActivity"
-            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_app_id" />
 
         <activity
-            android:name="movaliyacable.view.Main2Activity"
+            android:name="movaliyacable.view.MainActivity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

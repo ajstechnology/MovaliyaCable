@@ -13,8 +13,6 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdView;
 import com.movaliyacable.R;
 
-import movaliyacable.adsutility.AdsMobUtility;
-
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     LinearLayout btnsignin,btnsignup;
     TextView ivforgot;
@@ -60,7 +58,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     {
         if(v==btnsignin)
         {
-            Intent  i =new Intent(LoginActivity.this,Main2Activity.class);
+            Intent  i =new Intent(LoginActivity.this, MainActivity.class);
             startActivity(i);
 
         }

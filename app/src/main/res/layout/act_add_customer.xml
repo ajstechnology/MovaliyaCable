@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white"
+    android:background="#EEEEEE"
     android:fitsSystemWindows="true"
     android:gravity="center"
     android:orientation="vertical">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:background="@drawable/act"
         android:layout_height="60dp">
@@ -43,7 +43,7 @@
             android:textColor="#000000" />
 
     </LinearLayout>
-
+-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

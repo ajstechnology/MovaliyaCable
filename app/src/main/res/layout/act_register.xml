@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white"
     android:fitsSystemWindows="true"
     android:gravity="center"
+    android:background="#EEEEEE"
     android:orientation="vertical">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:background="@drawable/act"
+        android:background="@android:color/transparent"
         android:layout_height="60dp">
         <ImageView
             android:id="@+id/header_left_btn"
@@ -19,7 +19,8 @@
             android:layout_weight=".3"
             android:layout_gravity="center"
             android:paddingLeft="@dimen/_10sdp"
-            android:src="@drawable/back_icon"
+            android:background="@drawable/back_icon"
+            android:backgroundTint="@color/black"
             />
         <TextView
             android:id="@+id/header_text"
@@ -30,7 +31,7 @@
             android:gravity="center"
             android:singleLine="true"
             android:text="Register"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/gray"
             android:textSize="20sp"
             android:textStyle="normal" />
 
@@ -39,7 +40,7 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight=".3"
-            android:text=" Back"
+            android:text="Back"
             android:textColor="#000000" />
 
     </LinearLayout>

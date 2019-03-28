@@ -6,62 +6,16 @@
     xmlns:ads="http://schemas.android.com/tools"
     android:fitsSystemWindows="true"
     android:gravity="center"
-    android:background="@color/white"
+    android:background="#EEEEEE"
     android:orientation="vertical">
-    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:background="@drawable/act"
-        android:layout_height="50dp">
-        <ImageView
-            android:id="@+id/header_left_btn"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".3"
-            android:layout_gravity="center"
-            android:paddingLeft="@dimen/_10sdp"
-         />
 
-        <TextView
-            android:id="@+id/header_text"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:singleLine="true"
-            android:text="Login"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/aa"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight=".3"
-            android:text=" Back"
-            android:textColor="#000000" />
 
-    </LinearLayout>
--->
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-      >
-
-        <ImageView
-            android:id="@+id/top"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/tv"
-            android:layout_gravity="center"
-
-            />
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -71,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:visibility="gone" />
+
 
             <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
@@ -85,7 +40,31 @@
                     android:orientation="vertical"
 
                     android:padding="@dimen/_20sdp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:layout_height="150dp"
+                        >
+                        <ImageView
+                            android:id="@+id/top"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center|center_vertical"
+                            android:background="@drawable/tvs"
 
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_6sdp"
+                        android:text="Sign In"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

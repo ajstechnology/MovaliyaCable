@@ -19,6 +19,7 @@
         android:layout_gravity="start"
         android:alwaysDrawnWithCache="true"
         android:background="@color/white"
+        android:visibility="gone"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main2"
         app:itemIconTint="@drawable/drawer_item"
